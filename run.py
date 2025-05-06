@@ -45,6 +45,16 @@ with app.app_context():
 def load_user(user_id):
     return User.query.get(user_id)
 
+from flask import render_template
+
+@app.route('/sarah-dashboard')
+def sarah_dashboard():
+    data = {
+        "total_applications": 12,
+        "interviews": 4,
+        "avg_wait_days": 5
+    }
+    return render_template("sarah_dashboard.html", data=data)
 
 
 if __name__ == '__main__':
