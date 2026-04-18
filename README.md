@@ -52,5 +52,5 @@ The application follows a modular **Blueprint-like** structure for maintainabili
 
 1. **Clone & Navigate:**
    ```bash
-   git clone [https://github.com/Rebecca115/](https://github.com/Rebecca115/)[Repo-Name].git
+   git clone [https://github.com/Rebecca115/Study-Perth-Assistant.git]
    cd [Repo-Name]
